@@ -103,10 +103,31 @@ Lestar is a comprehensive AI-driven centralized data repository platform designe
 ```
 Changelog:
 - July 01, 2025. Initial setup
+- July 01, 2025. Enhanced interactive features:
+  * Added 3D computer screen effect for hero data journey
+  * Implemented clickable architecture stages with animated transitions
+  * Enhanced AI chatbot with keyword-based responses (report, graph, pie, bar)
+  * Added interactive visualizations in chatbot (tables, charts)
+  * Improved user experience with Apple-inspired design elements
 ```
+
+## Recent Changes
+
+### Interactive Enhancements (July 01, 2025)
+- **3D Computer Screen**: Hero section now displays data journey inside a realistic 3D computer monitor with glowing effects and floating data particles
+- **Interactive Architecture Stages**: Users can click through Stage 1 (Integration), Stage 2 (Processing), and Stage 3 (Insights) with unique animations and content for each stage
+- **Smart AI Chatbot**: Enhanced with keyword detection that generates specific visualizations:
+  - "report" keyword → Interactive data table
+  - "graph" or "line" keywords → Line chart
+  - "pie" keyword → Pie chart with legend
+  - "bar" keyword → Bar chart comparison
+- **Quick Action Buttons**: Added suggestion buttons for common chatbot requests
+- **Generate Report Feature**: Stage 3 includes an AI report generation simulation with loading animations
 
 ## User Preferences
 
 ```
 Preferred communication style: Simple, everyday language.
+Design preference: Apple-inspired clean minimal design with interactive elements.
+Interactive requirements: 3D computer screen, clickable architecture stages, keyword-responsive AI chatbot.
 ```
