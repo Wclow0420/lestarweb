@@ -1,0 +1,53 @@
+Now i want you to fully understand my product is lestar , this is a Data Management Platform
+It is an Al-Driven Centralized Data Repository platform that helps
+organizations to:
+○ Centralized Data Repository
+○ AI/ML-Driven Data Cleaning & Transformation
+• Real-Time Dashboards & Forecasting Tools
+• Smart Integration with Existing Systems (ERP, Finance, CRM)
+• Secure, Scalable, and Multi-Entity Ready
+
+And my image1.png
+
+Why Need Data Management?
+Key Benefits to You
+Faster Reporting: Reduce report generation from days to minutes
+Improved Accuracy: Minimize manual errors through automation
+Better Visibility: Unified view across all departments
+Smart Insights: AI detects trends, forecasts outcomes & flags anomalies
+Increased Productivity: Free your teams from spreadsheet chaos
+OCR & Secure File Transfer: Extract key info from contracts, invoices, and internal
+forms, and safely move them between departments.
+
+and look and understand image2.png image.png and image1.png
+
+Now fully understand i got 2 main product in lestar for now is lestar ESG and lestar CEO360
+
+https://lestar.ai/lestar-ceo-360/
+
+https://lestar.ai/lestar-esg/
+
+https://lestar.ai/
+
+not sure you can read web or not
+
+Fully understand my lestar then we discuss how can we design a good interactive website that able to show user that this is a data management product excel data file , database > extract to data lake(can let user choose preference eg Azure,mongoDB,Iceberg,Amazon S3, google cloud) > we do quality check, clean, transform then > load to data warehouse( can choose your preference eg AWS, snowflake, oracle, IBM) > then we can split it to lestar ESG or Lestar CEO360 > after that we got some analytics graph and generative AI , and some integration like trend analysis or anomaly detection
+
+Above is some breif of what lestar do, lestar CEO360 is mainly for like got estar CEO 360 centralises your corporate financial data into a single, accessible repository. By harnessing the power of machine learning and big data analytics, we provide real-time insights into your company's financial health. This comprehensive overview enables proactive financial management and risk mitigation. Real-Time Financial Insights
+Lestar provides a comprehensive overview of your company's financial health in real-time. This enables proactive financial management and risk mitigation, ensuring you stay ahead of potential issues.Generative AI Chatbot with Data Retrieval
+Our user-friendly AI chatbot simplifies data access by answering queries and retrieving relevant financial information, empowering your team to make informed decisions.24/7 Advanced Monitoring
+Our system operates around the clock, protecting your finances from potential breaches. By continuously analyzing spending patterns and detecting anomalies, Lestar alerts management to unusual financial activities, ensuring your financial security.Unified Financial Dashboard
+Lestar CEO 360 consolidates your financial data into a unified dashboard, providing a clear and comprehensive overview of your company's performance.Predictive Financial Forecasting
+Lestar's predictive analytics forecast future financial performance based on current trends, allowing you to optimize strategies and achieve your financial goals.Anomaly Detection and Alerts
+By analyzing historical spending patterns, Lestar detects anomalies and proactively alerts management to any unusual financial activities, ensuring timely intervention.
+
+Lestar ESG estar ESG is designed to streamline your ESG journey. With rapid implementation and cost-effective tools, we provide a centralised platform for consolidating ESG data. Our user-friendly interface allows unlimited users, including suppliers and colleagues, to contribute ESG information seamlessly. A robust audit trail ensures data integrity and accountability.
+
+Our ESG experts offer comprehensive support, including ESG consultations to assess your current practices, develop ESG indicators, and optimise business processes. Benefit from best practice sharing and regular training to enhance your ESG knowledge. lestar ESG able to:
+
+Leverage advanced technology for actionable insights.
+Analyzes vast amounts of ESG data sets to generate a comprehensive dashboard, providing a clear performance overviews.
+Predicting future trends based on your ESG data, helps you set achievable goals and implement effective strategies.
+A generative AI chatbot further simplifies data access and retrieval for your team.
+
+I want react + tailwindCSS , i want the overall design look alike apple website ,clean minimal but have a cool design on the data table or interactive graph
