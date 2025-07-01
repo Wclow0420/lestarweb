@@ -113,9 +113,21 @@ Changelog:
 
 ## Recent Changes
 
+### MacBook Design & Multi-Page Enhancement (July 01, 2025)
+- **Realistic MacBook Design**: Transformed 3D computer into authentic MacBook with:
+  - macOS menu bar with traffic light controls
+  - Apple logo on screen back
+  - Keyboard and trackpad details
+  - Proper 3D perspective and transforms
+- **Optimized Architecture Layout**: Compressed data architecture section to fit all 3 stages and details on one screen
+- **Multi-Page Navigation**: Created comprehensive navigation system with three distinct pages:
+  - **Home**: Current landing page with hero, data flow, and architecture
+  - **Lestar ESG**: Dedicated ESG page with environmental, social, governance metrics and interactive charts
+  - **Lestar CEO360**: Executive dashboard with KPI tracking, department performance, and financial analytics
+- **Enhanced Navigation**: Updated navigation component with active state indicators and mobile-responsive design
+- **Interactive Features on All Pages**: Each page includes interactive graphs, data tables, and AI chatbot functionality
+
 ### Interactive Enhancements (July 01, 2025)
-- **3D Computer Screen**: Hero section now displays data journey inside a realistic 3D computer monitor with glowing effects and floating data particles
-- **Interactive Architecture Stages**: Users can click through Stage 1 (Integration), Stage 2 (Processing), and Stage 3 (Insights) with unique animations and content for each stage
 - **Smart AI Chatbot**: Enhanced with keyword detection that generates specific visualizations:
   - "report" keyword → Interactive data table
   - "graph" or "line" keywords → Line chart

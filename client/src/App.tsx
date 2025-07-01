@@ -4,12 +4,16 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
+import LestarESG from "@/pages/lestar-esg";
+import LestarCEO360 from "@/pages/lestar-ceo360";
 import NotFound from "@/pages/not-found";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/lestar-esg" component={LestarESG} />
+      <Route path="/lestar-ceo360" component={LestarCEO360} />
       <Route component={NotFound} />
     </Switch>
   );

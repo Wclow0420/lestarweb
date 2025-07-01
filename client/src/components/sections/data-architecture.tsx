@@ -46,8 +46,8 @@ export default function DataArchitecture() {
     switch(activeStage) {
       case 1:
         return (
-          <div className="bg-white rounded-2xl p-8 shadow-lg">
-            <h4 className="text-2xl font-bold mb-6 text-center">Data Integration Sources</h4>
+          <div className="bg-white rounded-xl p-6 shadow-lg">
+            <h4 className="text-xl font-bold mb-4 text-center">Data Integration Sources</h4>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
                 { name: 'Excel Files', icon: FileSpreadsheet, color: 'bg-green-500', description: 'CSV, XLSX spreadsheets' },
@@ -233,59 +233,59 @@ export default function DataArchitecture() {
   };
 
   return (
-    <section className="py-20 bg-white" id="architecture">
+    <section className="py-12 bg-white" id="architecture">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <motion.h2 
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-4xl lg:text-5xl font-bold mb-6"
+            className="text-3xl lg:text-4xl font-bold mb-4"
           >
             How does our data architecture work?
           </motion.h2>
           <motion.p 
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-xl text-gray-600 max-w-3xl mx-auto"
+            className="text-lg text-gray-600 max-w-2xl mx-auto"
           >
             Three-stage intelligent data processing pipeline that transforms raw data into actionable insights
           </motion.p>
         </div>
         
-        <div className="bg-gray-50 rounded-3xl p-8 lg:p-12">
-          {/* Interactive Stage Headers */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
+        <div className="bg-gray-50 rounded-2xl p-6 lg:p-8">
+          {/* Compact Interactive Stage Headers */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-8">
             {stages.map((item, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 onClick={() => setActiveStage(item.stage)}
-                className={`text-center cursor-pointer transition-all duration-300 p-6 rounded-2xl ${
+                className={`text-center cursor-pointer transition-all duration-300 p-4 rounded-xl ${
                   activeStage === item.stage 
-                    ? 'bg-white shadow-lg scale-105' 
-                    : 'hover:bg-white/50 hover:scale-102'
+                    ? 'bg-white shadow-lg scale-102' 
+                    : 'hover:bg-white/50 hover:scale-101'
                 }`}
               >
                 <motion.div 
-                  className={`w-16 h-16 ${item.color} rounded-2xl flex items-center justify-center mx-auto mb-4 ${
-                    activeStage === item.stage ? 'shadow-xl' : ''
+                  className={`w-12 h-12 ${item.color} rounded-xl flex items-center justify-center mx-auto mb-3 ${
+                    activeStage === item.stage ? 'shadow-lg' : ''
                   }`}
-                  whileHover={{ scale: 1.1, rotate: 5 }}
+                  whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <item.icon className="text-white" size={24} />
+                  <item.icon className="text-white" size={20} />
                 </motion.div>
-                <h3 className="text-xl font-semibold text-gray-800">{item.title}</h3>
-                <p className="text-gray-600 mt-2">{item.description}</p>
+                <h3 className="text-lg font-semibold text-gray-800">{item.title}</h3>
+                <p className="text-sm text-gray-600 mt-1">{item.description}</p>
                 {activeStage === item.stage && (
                   <motion.div
                     initial={{ scaleX: 0 }}
                     animate={{ scaleX: 1 }}
-                    className="h-1 bg-gradient-to-r from-[var(--lestar-teal)] to-[var(--lestar-blue)] rounded-full mt-4"
+                    className="h-0.5 bg-gradient-to-r from-[var(--lestar-teal)] to-[var(--lestar-blue)] rounded-full mt-3"
                   />
                 )}
               </motion.div>
