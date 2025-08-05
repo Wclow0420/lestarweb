@@ -29,6 +29,8 @@ export default defineConfig({
     emptyOutDir: true,
   },
   server: {
+    host: true, // Allow external access
+    port: 5173, // Specify port (optional)
     fs: {
       strict: true,
       deny: ["**/.*"],

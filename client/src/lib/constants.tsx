@@ -204,6 +204,33 @@ export const MOCK_TABLE_DATA = [
     status: 'Needs Attention',
     statusColor: 'bg-yellow-100 text-yellow-800',
     positive: false
+  },
+  {
+    id: 4,
+    department: 'Marketing',
+    score: 91.3,
+    trend: '+15.7%',
+    status: 'Excellent',
+    statusColor: 'bg-green-100 text-green-800',
+    positive: true
+  },
+  {
+    id: 5,
+    department: 'IT',
+    score: 83.1,
+    trend: '+5.9%',
+    status: 'Good',
+    statusColor: 'bg-blue-100 text-blue-800',
+    positive: true
+  },
+  {
+    id: 6,
+    department: 'Procurement',
+    score: 69.4,
+    trend: '-7.8%',
+    status: 'Critical',
+    statusColor: 'bg-red-100 text-red-800',
+    positive: false
   }
 ];
 
