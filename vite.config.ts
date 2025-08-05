@@ -16,6 +16,7 @@ export default defineConfig({
         ]
       : []),
   ],
+  base: "/<REPO_NAME>/", // Replace <REPO_NAME> with your GitHub repo name
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
